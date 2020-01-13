@@ -12,6 +12,8 @@ server:
         contextPath: /pizza
         session:
                 timeout: 10000
+                
+server.servlet.context-path=/pizza
 management:
         port: 9091
         address: 127.0.0.1
